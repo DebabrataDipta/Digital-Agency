@@ -86,8 +86,12 @@
     width: 100%;
     height: 100vh;
     background-image: url("image/asset/image/footer-bg.png"),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .service-btn{
     padding: 15px 15px;
@@ -139,4 +143,63 @@
 }
 .service-info{
     margin-bottom: 30px;
+}
+.service{
+    background-color: white;
+    padding: 50px;
+    width: 220px;
+    height: 220px;
+    box-shadow: 4px 4px 8px grey;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+.service-logo{
+    width: 50%;
+    padding-bottom: 10px;
+}
+.service-box-up{
+    display: flex;
+}
+.service-box-down{
+    display: flex;
+}
+.service-right{
+    margin-right: 40px;
+}
+.appointment-image{
+    width: 90px;
+}
+.appointment-left{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+.number{
+    font-size: 60px;
+    font-weight: bold;
+}
+.appointment-btn{
+    padding: 10px 25px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 15px;
+    color: #FD6E0A;
+    font-weight: 600;
+    background-color: white;
+}
+.appointment-section{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    color: white;
+    margin: auto;
+    padding: 40px 60px;
+    background-color: #FD6E0A;
+    border-radius: 30px;
+    margin-top: 100px;
 }
